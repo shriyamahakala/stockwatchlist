@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Stock Watchlist",
+  "version": "1.0",
+  "description": "Allows you to easily view updates of your stock watchlist",
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "icons": {
+    "16": "images/glass16x16.png",
+    "32": "images/glass32x32.png",
+    "48": "images/glass48x48.png",
+    "128": "images/glass128x128.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "optional_host_permissions":[
+    "<all_urls>"
+  ]
+
+}
